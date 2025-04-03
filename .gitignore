@@ -1,3 +1,5 @@
+ai_model.keras
+
 # Logs
 logs
 *.log

@@ -36,6 +36,8 @@
     "@cache": "./cache",
     "@models": "./models",
     "@routes": "./routes",
-    "@storage": "./storage"
+    "@storage": "./storage",
+    "@controllers": "./controllers",
+    "@temp": "./temp"
   }
 }
