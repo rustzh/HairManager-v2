@@ -2,8 +2,6 @@ const axios = require("axios");
 const fs = require("fs");
 const imageCache = require("@cache/imageCache");
 
-console.log(require.resolve("@cache/imageCache"));
-
 const imageUploadToS3 = async (userId, filePath, fileName, timer, imageUrl) => {
   try {
     // s3 파일 업로드
